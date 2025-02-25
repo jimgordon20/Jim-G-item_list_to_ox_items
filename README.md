@@ -34,3 +34,26 @@ Why use this?
 Saves Time: Instead of manually formatting each item, the script automates the process.
 Consistency: Ensures all items are formatted uniformly.
 Easy to Use: Simply drag and drop your .txt file onto the script, and it handles the rest.
+
+we have 2 option for now basic and options 
+
+
+basic example 
+        ['prepaid_phone'] = {
+		label = 'Prepaid Phone',
+		weight = 70,
+	},
+
+
+
+options example 
+         ['prepaid_phone'] = {
+		label = 'Prepaid Phone',
+		weight = 70,
+		stack = false,
+		close = true,
+	},
+
+
+How you can edit it: 
+Download it, left-click, and edit in Notepad or whatever you use. In the .batch file, you will see a value set to 70, followed by true and false options in the settings. Change them as you like.
